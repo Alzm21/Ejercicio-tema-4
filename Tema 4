@@ -1,0 +1,64 @@
+public class Main
+{
+	public static void main(String[] args) {
+		//Parte 1
+		int numerolf = 0;
+		if(numerolf <= -1){
+		    System.out.println("El numero es negativo");
+		}
+		if(numerolf >= 1){
+		    System.out.println("El numero es positivo");
+		}
+		if(numerolf == 0){
+		    System.out.println("El numero es cero");
+		}
+		
+	System.out.println("\n");
+	
+        //Parte2
+	    int numeroWhile = -3;
+	    while(numeroWhile < 3){
+	        System.out.println(numeroWhile);
+	        numeroWhile++;
+	    }
+	    
+	System.out.println("\n");   
+	
+	    //Parte 3
+	    int numeroWhile2 = -3;
+	        do{
+	        System.out.println(numeroWhile2);
+	        numeroWhile2++;
+	        }while (numeroWhile2 <-3 );
+	        
+	System.out.println("\n"); 
+	
+	    //Parte 4
+	    for (int numeroFor = 0; numeroFor <= 3; numeroFor++){
+	        System.out.println(numeroFor);
+	    }
+	    
+	 System.out.println("\n");   
+	 
+	    //Parte 5
+	    var estacion= "Otro dato";
+	    
+	    switch(estacion){
+	        case ("Invierno"):
+	            System.out.println("La estacion es invierno");
+	            break;
+	        case ("Primavera"):
+	            System.out.println("La estacion es primavera");
+	            break;
+	        case ("Verano"):
+	            System.out.println("La estacion es verano");
+	            break;
+	        case ("Otono"):
+	            System.out.println("La estacion es otono");
+	            break;     
+	        default:
+	            System.out.println("A introducido un dato que no es estacion");
+	    }
+	}
+	
+}
